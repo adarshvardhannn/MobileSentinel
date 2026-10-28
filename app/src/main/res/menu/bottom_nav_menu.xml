@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/scannerFragment"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Scanner" />
+
+    <item
+        android:id="@+id/vulnerabilityFragment"
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:title="Vulnerabilities" />
+
+    <item
+        android:id="@+id/logFragment"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="Logs" />
+
+    <item
+        android:id="@+id/reportsFragment"
+        android:icon="@android:drawable/ic_menu_report_image"
+        android:title="Reports" />
+
+</menu>
+

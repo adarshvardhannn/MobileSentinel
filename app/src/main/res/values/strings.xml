@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">MobileSentinel</string>
+    <string name="score_format">%d/100</string>
+    <string name="last_scan_format">Last scan: %s</string>
+    <string name="no_scans_yet">No scans yet</string>
+    <string name="status_secure">SECURE</string>
+    <string name="status_at_risk">AT RISK</string>
+    <string name="status_critical">CRITICAL</string>
+    <string name="status_unknown">UNKNOWN</string>
+    <string name="security_score">Security Score</string>
+    <string name="open_ports">Open Ports</string>
+    <string name="suspicious_apps">Suspicious Apps</string>
+    <string name="vulnerabilities">Vulnerabilities</string>
+    <string name="recent_alerts">Recent Alerts</string>
+    <string name="empty_alerts">No alerts yet.\nRun a scan to get started.</string>
+    <string name="start_scan">Start Scan</string>
+    <string name="stop_scan">Stop Scan</string>
+    <string name="scan_configuration">Scan Configuration</string>
+    <string name="host_address">Host Address</string>
+    <string name="start_port">Start Port</string>
+    <string name="end_port">End Port</string>
+    <string name="scan_summary">Scan Summary</string>
+    <string name="total_scanned">Total Scanned</string>
+    <string name="open_label">Open</string>
+    <string name="risky_label">Risky</string>
+    <string name="open_ports_found">Open Ports Found</string>
+    <string name="no_open_ports">No open ports found.\nYour device appears secure.</string>
+    <string name="port_number_format">Port %d</string>
+    <string name="risky_warning">⚠ RISKY</string>
+    <string name="scanning_port_status">Scanning port %1$d of %2$d…</string>
+    <string name="percent_format">%d%%</string>
+    <string name="error_empty_host">Please enter a host address</string>
+    <string name="error_invalid_ports">Please enter valid port numbers</string>
+    <string name="error_port_range">Port numbers must be between 1 and 65535</string>
+    <string name="error_start_greater">Start port must be less than end port</string>
+
+    <!-- Network Auto-Detect -->
+    <string name="auto_detect">Auto</string>
+    <string name="connected_status">Connected</string>
+    <string name="network_status_format">Connected via %1$s • %2$s</string>
+    <string name="ip_chip_format">%1$s (%2$s)</string>
+    <string name="default_host">127.0.0.1</string>
+
+    <!-- Scanner Tabs -->
+    <string name="tab_port_scan">Port Scan</string>
+    <string name="tab_running_apps">Running Apps</string>
+
+    <!-- Process Monitor -->
+    <string name="search_apps_hint">Search apps…</string>
+    <string name="filter_all">All</string>
+    <string name="filter_flagged">⚠ Flagged</string>
+    <string name="filter_dangerous">Dangerous Perms</string>
+    <string name="total_apps_format">Total: %d</string>
+    <string name="flagged_apps_format">Flagged: %d</string>
+    <string name="no_processes_found">No running processes found</string>
+    <string name="flagged_label">⚠ FLAGGED</string>
+    <string name="memory_mb_format">%d MB</string>
+    <string name="dangerous_perm_count_format">%d perms</string>
+    <string name="flag_reasons_header">Flag Reasons:</string>
+    <string name="dangerous_perms_header">Dangerous Permissions:</string>
+    <string name="no_dangerous_perms">None detected</string>
+    <string name="install_source_format">Install source: %s</string>
+    <string name="app_icon_desc">App icon</string>
+    <string name="expand_desc">Expand details</string>
+
+    <!-- Vulnerability Scanner -->
+    <string name="vuln_risk_score_label">Overall Risk Score</string>
+    <string name="vuln_run_scan">Run Vulnerability Scan</string>
+    <string name="vuln_scanning">Analyzing installed applications…</string>
+    <string name="vuln_severity_distribution">Severity Distribution</string>
+    <string name="vuln_filter_critical">Critical</string>
+    <string name="vuln_filter_high">High</string>
+    <string name="vuln_filter_medium">Medium</string>
+    <string name="vuln_filter_low">Low</string>
+    <string name="vuln_remediation_label">Remediation:</string>
+    <string name="vuln_empty_state">No vulnerabilities scanned yet.\nTap the button above to start.</string>
+    <string name="vuln_low_risk">LOW RISK</string>
+    <string name="vuln_moderate_risk">MODERATE RISK</string>
+    <string name="vuln_high_risk">HIGH RISK</string>
+
+    <!-- Log Analyzer -->
+    <string name="log_search_hint">Search logs…</string>
+    <string name="log_chip_auth">Auth</string>
+    <string name="log_chip_root">Root</string>
+    <string name="log_chip_packages">Packages</string>
+    <string name="log_chip_usb">USB</string>
+    <string name="log_chip_crashes">Crashes</string>
+    <string name="log_chip_network">Network</string>
+    <string name="log_capture">Capture</string>
+    <string name="log_summary_format">%1$d logs | %2$d anomalies</string>
+    <string name="log_chip_all_count">All (%d)</string>
+    <string name="log_chip_count_format">%1$s (%2$d)</string>
+    <string name="log_empty_state">No logs captured yet.\nTap Capture to read device logs.</string>
+
+    <!-- Report Generator -->
+    <string name="report_icon_desc">Report icon</string>
+    <string name="report_generate_title">Generate Security Report</string>
+    <string name="report_generate_desc">Create a comprehensive PDF report from\nyour latest scan data.</string>
+    <string name="report_generate_btn">Generate Report</string>
+    <string name="report_generating">Generating report…</string>
+    <string name="report_saved_header">Saved Reports</string>
+    <string name="report_empty_state">No reports yet.\nGenerate one from your scan data.</string>
+    <string name="report_success">✓ Report saved: %s</string>
+    <string name="report_no_pdf_viewer">No PDF viewer app installed</string>
+    <string name="report_share_failed">Unable to share report</string>
+    <string name="report_delete_title">Delete Report</string>
+    <string name="report_delete_msg">Delete %s?</string>
+    <string name="report_delete_confirm">Delete</string>
+    <string name="report_file_info_format">%1$d KB • %2$s</string>
+    <string name="report_pdf_icon_desc">PDF file</string>
+    <string name="report_action_preview">Preview</string>
+    <string name="report_action_share">Share</string>
+    <string name="report_action_delete">Delete</string>
+
+    <!-- Settings / Monitoring -->
+    <string name="settings_header">Monitoring Settings</string>
+    <string name="settings_bg_monitoring">Background Monitoring</string>
+    <string name="settings_scan_interval">Scan Interval</string>
+    <string name="settings_critical_only">Critical Alerts Only</string>
+    <string name="settings_theme">Theme</string>
+
+    <!-- Full Scan -->
+    <string name="full_scan_title">Full Security Scan</string>
+    <string name="full_scan_initializing">Initializing scan…</string>
+    <string name="full_scan_complete">Scan complete! Score: %d/100</string>
+    <string name="full_scan_failed">Scan failed: %s</string>
+    <string name="full_scan_cancelled">Scan cancelled</string>
+
+    <!-- Security Scan in Scanner -->
+    <string name="security_scan_title">Device Security Score</string>
+    <string name="security_scan_desc">Run a full scan to check ports, apps, vulnerabilities &amp; logs on your Android device</string>
+    <string name="security_scan_btn">🛡️  Scan Security Score</string>
+    <string name="security_scan_cancel">Cancel Scan</string>
+    <string name="security_score_format">%d/100</string>
+    <string name="security_status_secure">SECURE</string>
+    <string name="security_status_at_risk">AT RISK</string>
+    <string name="security_status_critical">CRITICAL</string>
+    <string name="security_score_summary">Ports, apps, vulnerabilities &amp; logs analyzed</string>
+    <string name="critical_count_format">%d CRITICAL</string>
+    <string name="high_count_format">%d HIGH</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_welcome_title">Welcome to\nMobileSentinel</string>
+    <string name="onboarding_welcome_desc">Your comprehensive mobile security analyzer.\nDetect vulnerabilities, monitor threats,\nand secure your device.</string>
+    <string name="onboarding_features_title">Powerful Features</string>
+    <string name="onboarding_features_subtitle">Everything you need to stay secure</string>
+    <string name="onboarding_feat_port">Port\nScanner</string>
+    <string name="onboarding_feat_process">App\nMonitor</string>
+    <string name="onboarding_feat_vuln">Vulnerability\nAnalyzer</string>
+    <string name="onboarding_feat_logs">Security\nLogs</string>
+    <string name="onboarding_feat_reports">PDF\nReports</string>
+    <string name="onboarding_feat_alerts">Real-time\nAlerts</string>
+    <string name="onboarding_perms_title">Permissions</string>
+    <string name="onboarding_perms_desc">MobileSentinel needs a few permissions\nto analyze your device security.</string>
+    <string name="onboarding_perm_notif">Notifications</string>
+    <string name="onboarding_perm_usage">Usage Stats Access</string>
+    <string name="onboarding_grant">Grant</string>
+    <string name="onboarding_open_settings">Settings</string>
+
+    <!-- Root Detection -->
+    <string name="root_banner_text">⚠️ Root detected — Enhanced monitoring active</string>
+    <string name="root_banner_dismiss">Dismiss</string>
+
+    <!-- AI Security Analysis -->
+    <string name="ai_security_analysis_title">AI SECURITY ANALYSIS</string>
+    <string name="ai_loading">Analyzing with AI…</string>
+    <string name="ai_error_unavailable">AI explanation unavailable — showing rule-based security analysis.</string>
+    <string name="ai_header_explanation">DETAILED EXPLANATION</string>
+    <string name="ai_header_impact">POTENTIAL IMPACT</string>
+    <string name="ai_header_severity">SEVERITY REASON</string>
+    <string name="ai_header_score">RISK SCORE REASONING</string>
+    <string name="ai_header_mitigation">RECOMMENDED MITIGATION</string>
+    <string name="ai_header_user_actions">USER ACTIONS</string>
+    <string name="ai_header_technical">TECHNICAL REMEDIATION</string>
+    <string name="ai_header_confidence">CONFIDENCE &amp; LIMITATIONS</string>
+    <string name="ai_btn_regenerate">Regenerate</string>
+    <string name="ai_confidence_format">Confidence Level: %s</string>
+    <string name="ai_limitations_format">Limitations: %s</string>
+</resources>

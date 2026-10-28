@@ -1,0 +1,6 @@
+# Location of the SDK. This is only used by Gradle.
+sdk.dir=C\:\\Users\\YOUR_USERNAME\\AppData\\Local\\Android\\Sdk
+
+# Gemini API Key for AI Security Explanation
+# Get your key at: https://aistudio.google.com/
+gemini.api.key=YOUR_GEMINI_API_KEY_HERE

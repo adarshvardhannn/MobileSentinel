@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A2E"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onboarding_features_title"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/onboarding_features_subtitle"
+        android:textColor="#BBBBBB"
+        android:textSize="14sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:useDefaultMargins="true">
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_columnWeight="1" android:gravity="center" android:orientation="vertical" android:padding="12dp">
+            <ImageView android:layout_width="36dp" android:layout_height="36dp"
+                android:src="@android:drawable/ic_menu_search" android:contentDescription="@null" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/onboarding_feat_port" android:textColor="@android:color/white" android:textSize="12sp" android:gravity="center" android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_columnWeight="1" android:gravity="center" android:orientation="vertical" android:padding="12dp">
+            <ImageView android:layout_width="36dp" android:layout_height="36dp"
+                android:src="@android:drawable/ic_menu_manage" android:contentDescription="@null" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/onboarding_feat_process" android:textColor="@android:color/white" android:textSize="12sp" android:gravity="center" android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_columnWeight="1" android:gravity="center" android:orientation="vertical" android:padding="12dp">
+            <ImageView android:layout_width="36dp" android:layout_height="36dp"
+                android:src="@android:drawable/ic_dialog_alert" android:contentDescription="@null" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/onboarding_feat_vuln" android:textColor="@android:color/white" android:textSize="12sp" android:gravity="center" android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_columnWeight="1" android:gravity="center" android:orientation="vertical" android:padding="12dp">
+            <ImageView android:layout_width="36dp" android:layout_height="36dp"
+                android:src="@android:drawable/ic_menu_recent_history" android:contentDescription="@null" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/onboarding_feat_logs" android:textColor="@android:color/white" android:textSize="12sp" android:gravity="center" android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_columnWeight="1" android:gravity="center" android:orientation="vertical" android:padding="12dp">
+            <ImageView android:layout_width="36dp" android:layout_height="36dp"
+                android:src="@android:drawable/ic_menu_save" android:contentDescription="@null" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/onboarding_feat_reports" android:textColor="@android:color/white" android:textSize="12sp" android:gravity="center" android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_columnWeight="1" android:gravity="center" android:orientation="vertical" android:padding="12dp">
+            <ImageView android:layout_width="36dp" android:layout_height="36dp"
+                android:src="@android:drawable/ic_popup_reminder" android:contentDescription="@null" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/onboarding_feat_alerts" android:textColor="@android:color/white" android:textSize="12sp" android:gravity="center" android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+    </GridLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.mobilesentinel.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/scannerFragment"
+        android:name="com.example.mobilesentinel.ui.scanner.ScannerFragment"
+        android:label="Scanner"
+        tools:layout="@layout/fragment_scanner" />
+
+    <fragment
+        android:id="@+id/vulnerabilityFragment"
+        android:name="com.example.mobilesentinel.ui.vulnerability.VulnerabilityFragment"
+        android:label="Vulnerabilities"
+        tools:layout="@layout/fragment_vulnerability" />
+
+    <fragment
+        android:id="@+id/logFragment"
+        android:name="com.example.mobilesentinel.ui.logs.LogFragment"
+        android:label="Logs"
+        tools:layout="@layout/fragment_log" />
+
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.example.mobilesentinel.ui.reports.ReportsFragment"
+        android:label="Reports"
+        tools:layout="@layout/fragment_reports" />
+
+</navigation>
+

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="#DDDDDD" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ai_security_analysis_title"
+            android:textColor="#6200EE"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAISummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="#212121"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            tools:text="Elevated privacy risk due to sensitive permission combination." />
+
+        <ProgressBar
+            android:id="@+id/pbAILoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvAIError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="#D32F2F"
+            android:visibility="gone"
+            tools:text="AI explanation unavailable — showing rule-based security analysis." />
+
+        <LinearLayout
+            android:id="@+id/layoutAIContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/AIHeader"
+                android:text="@string/ai_header_explanation" />
+            <TextView
+                android:id="@+id/tvAIRiskExplanation"
+                style="@style/AIBody" />
+
+            <TextView
+                style="@style/AIHeader"
+                android:text="@string/ai_header_impact" />
+            <TextView
+                android:id="@+id/tvAIPotentialImpact"
+                style="@style/AIBody" />
+
+            <TextView
+                style="@style/AIHeader"
+                android:text="@string/ai_header_severity" />
+            <TextView
+                android:id="@+id/tvAISeverityReason"
+                style="@style/AIBody" />
+
+            <TextView
+                style="@style/AIHeader"
+                android:text="@string/ai_header_score" />
+            <TextView
+                android:id="@+id/tvAIScoreExplanation"
+                style="@style/AIBody" />
+
+            <TextView
+                style="@style/AIHeader"
+                android:text="@string/ai_header_mitigation" />
+            <TextView
+                android:id="@+id/tvAIMitigation"
+                style="@style/AIBody" />
+
+            <TextView
+                style="@style/AIHeader"
+                android:text="@string/ai_header_user_actions" />
+            <TextView
+                android:id="@+id/tvAIUserActions"
+                style="@style/AIBody" />
+
+            <TextView
+                style="@style/AIHeader"
+                android:text="@string/ai_header_technical" />
+            <TextView
+                android:id="@+id/tvAITechnicalRemediation"
+                style="@style/AIBody" />
+
+            <TextView
+                style="@style/AIHeader"
+                android:text="@string/ai_header_confidence" />
+            <TextView
+                android:id="@+id/tvAIConfidence"
+                style="@style/AIBody" />
+            <TextView
+                android:id="@+id/tvAILimitations"
+                style="@style/AIBody"
+                android:layout_marginTop="4dp"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRegenerate"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="16dp"
+            android:text="@string/ai_btn_regenerate" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
